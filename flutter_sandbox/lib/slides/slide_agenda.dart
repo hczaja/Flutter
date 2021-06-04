@@ -8,7 +8,7 @@ class SlideAgenda extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Container(
-            color: Color(Colors.green.shade300.value),
+            color: Colors.green.shade300,
             width: MediaQuery.of(context).size.width * 0.1,
             child: Center(
               child: RotatedBox(
@@ -23,19 +23,21 @@ class SlideAgenda extends StatelessWidget {
             ),
           ),
           Container(
-            color: Color(Colors.green.shade50.value),
+            color: Colors.green.shade50,
             width: MediaQuery.of(context).size.width * 0.9,
-            child: Padding(padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.1, bottom: MediaQuery.of(context).size.height * 0.1),
               child: Center(
                 child: RichText(
                   textAlign: TextAlign.center,
                   text: TextSpan(
                     style: TextStyle(
-                      fontSize: 45,
-                      color: Color(Colors.black.value)
+                      fontSize: 30,
+                      color: Colors.black
                     ),
                     children: <TextSpan> [
                       TextSpan(text: "1. Flutter"),
+                      TextSpan(text: "\n1.1 What is it?", style: TextStyle(fontSize: 20, color: Colors.black87)),
+                      TextSpan(text: "\n1.2 Architecture", style: TextStyle(fontSize: 20, color: Colors.black87)),
+                      TextSpan(text: "\n1.3 Setup", style: TextStyle(fontSize: 20, color: Colors.black87)),
                       TextSpan(text: "\n2. Architecture"),
                       TextSpan(text: "\n3. Dart"),
                       TextSpan(text: "\n4. Tests"),
@@ -48,8 +50,7 @@ class SlideAgenda extends StatelessWidget {
                     ]
                   ),
                 )
-              )
-            ),
+            )
           ),
         ],
       ),
