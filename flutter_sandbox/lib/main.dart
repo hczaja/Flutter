@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_sandbox/slides/slide_home.dart';
-import 'package:flutter_sandbox/slides/slide_one.dart';
+import 'package:flutter_sandbox/slides/slide_agenda.dart';
 import 'package:flutter_sandbox/slides/slide_two.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: PageView(
         children: [
           SlideHome(),
-          SlideOne(),
+          SlideAgenda(),
           SlideTwo(),
         ],
       ),
