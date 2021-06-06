@@ -31,16 +31,18 @@ class SlideAgenda extends StatelessWidget {
                   text: TextSpan(
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.black
+                      color: Colors.black,
                     ),
                     children: <TextSpan> [
                       TextSpan(text: "1. Flutter"),
                       TextSpan(text: "\n1.1 What is it?", style: TextStyle(fontSize: 20, color: Colors.black87)),
                       TextSpan(text: "\n1.2 Architecture", style: TextStyle(fontSize: 20, color: Colors.black87)),
-                      TextSpan(text: "\n1.3 Setup", style: TextStyle(fontSize: 20, color: Colors.black87)),
-                      TextSpan(text: "\n2. Architecture"),
-                      TextSpan(text: "\n3. Dart"),
-                      TextSpan(text: "\n4. Tests"),
+                      TextSpan(text: "\n2. Dart"),
+                      TextSpan(text: "\n2.1 Why?", style: TextStyle(fontSize: 20, color: Colors.black87)),
+                      TextSpan(text: "\n2.2 Dart-Native and Dart-Web", style: TextStyle(fontSize: 20, color: Colors.black87)),
+                      TextSpan(text: "\n2.3 Syntax", style: TextStyle(fontSize: 20, color: Colors.black87)),
+                      TextSpan(text: "\n2.4 Effective Dart", style: TextStyle(fontSize: 20, color: Colors.black87)),
+                      TextSpan(text: "\n3. What about cons?"),
                       TextSpan(text: "\n5. Widgets"),
                       TextSpan(text: "\n6. Stateful"),
                       TextSpan(text: "\n7. Stateles"),
