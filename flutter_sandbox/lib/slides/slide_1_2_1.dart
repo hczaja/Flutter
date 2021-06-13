@@ -21,7 +21,7 @@ class SlideOneTwoOne extends StatelessWidget {
                     fontWeight: FontWeight.bold))
               ),
               Center(
-                child: Text("1.2.1 Architecture",
+                child: Text("1.2.2 Against other frameworks",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white70,

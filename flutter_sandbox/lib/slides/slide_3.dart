@@ -38,7 +38,6 @@ class SlideThree extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       FlutterLogo(size: 360),
-                      //Icon(Icons.mood_bad_outlined, size: 360, color: Colors.green.shade300),
                     ],
                   )
                 )

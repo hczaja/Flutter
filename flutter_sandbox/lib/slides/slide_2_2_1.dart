@@ -21,7 +21,7 @@ class SlideTwoTwoOne extends StatelessWidget {
                     fontWeight: FontWeight.bold))
               ),
               Center(
-                child: Text("2.2 Dart-Native and Dart-Web",
+                child: Text("2.2 Dart-Native & Dart-Web",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white70,
