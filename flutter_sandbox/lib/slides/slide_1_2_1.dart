@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SlideOneTwo extends StatelessWidget {
+class SlideOneTwoOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +21,7 @@ class SlideOneTwo extends StatelessWidget {
                     fontWeight: FontWeight.bold))
               ),
               Center(
-                child: Text("1.2 Architecture",
+                child: Text("1.2.2 Against other frameworks",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white70,
@@ -45,17 +45,21 @@ class SlideOneTwo extends StatelessWidget {
                             children: [
                               Container(
                                 color: Colors.green.shade50,
-                                margin: EdgeInsets.all(35),
-                                child: Padding (padding: EdgeInsets.all(10), child: Text("React Native", style: TextStyle(fontSize: 80, color: Colors.black, fontWeight: FontWeight.bold))),
-                              ),
-                              Container(
-                                color: Colors.green.shade50,
                                 margin: EdgeInsets.all(25),
                                 child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Column(
                                     children: [
-                                      Padding(padding: EdgeInsets.all(15), child: Image.asset('assets/images/react-icon.png', width: 80, height: 80)),
+                                      Container(
+                                        color: Colors.green.shade50,
+                                        child: Padding (padding: EdgeInsets.all(10), child: Text("React Native", style: TextStyle(fontSize: 80, color: Colors.black, fontWeight: FontWeight.bold))),
+                                      ),
+                                      Row(
+                                        children: [
+                                          Padding(padding: EdgeInsets.all(15), child: Image.asset('assets/images/facebook-icon.png', width: 160, height: 160)),
+                                          Padding(padding: EdgeInsets.all(15), child: Image.asset('assets/images/react-icon.png', width: 160, height: 160)),
+                                        ]
+                                      ),                                      
                                       Text("Application code (JS)", style: TextStyle(fontSize: 40, color: Colors.black)),
                                       Icon(Icons.arrow_downward_rounded, size: 40),
                                       Text("Bridge", style: TextStyle(fontSize: 40, color: Colors.black54)),
@@ -76,18 +80,22 @@ class SlideOneTwo extends StatelessWidget {
                           children: [
                             Container(
                               color: Colors.green.shade50,
-                              margin: EdgeInsets.all(35),
-                              child: Padding (padding: EdgeInsets.all(10), child: Text("Flutter", style: TextStyle(fontSize: 120, color: Colors.black, fontWeight: FontWeight.bold))),
-                            ),
-                            Container(
-                              color: Colors.green.shade50,
                               margin: EdgeInsets.all(25),
                               child: Padding(
                                 padding: EdgeInsets.all(10),
                                 child: Column(
                                   children: [
-                                    Padding(padding: EdgeInsets.all(15), child: FlutterLogo(size: 80)),
-                                    Text("Application code (Dart) + Widgets", style: TextStyle(fontSize: 40, color: Colors.black)),
+                                    Container(
+                                      color: Colors.green.shade50,
+                                      child: Padding (padding: EdgeInsets.all(10), child: Text("Flutter", style: TextStyle(fontSize: 120, color: Colors.black, fontWeight: FontWeight.bold))),
+                                    ),
+                                    Row(
+                                      children: [
+                                        Padding(padding: EdgeInsets.all(15), child: Image.asset('assets/images/google-icon.png', width: 160, height: 160)),
+                                        Padding(padding: EdgeInsets.all(15), child: FlutterLogo(size: 160)),
+                                      ]
+                                    ),                                    
+                                    Text("Application code (Dart) \n + Custom widgets", style: TextStyle(fontSize: 40, color: Colors.black)),
                                     Icon(Icons.arrow_downward_rounded, size: 40),
                                     Text("Platform", style: TextStyle(fontSize: 40, color: Colors.black)),
                                   ],
@@ -106,17 +114,21 @@ class SlideOneTwo extends StatelessWidget {
                             children: [
                               Container(
                                 color: Colors.green.shade50,
-                                margin: EdgeInsets.all(35),
-                                child: Padding (padding: EdgeInsets.all(10), child: Text("Xamarin", style: TextStyle(fontSize: 80, color: Colors.black, fontWeight: FontWeight.bold))),
-                              ),
-                              Container(
-                                color: Colors.green.shade50,
                                 margin: EdgeInsets.all(25),
                                 child: Padding(
                                   padding: EdgeInsets.all(10),
                                   child: Column(
                                     children: [
-                                      Padding(padding: EdgeInsets.all(15), child: Image.asset('assets/images/xamarin-icon.png', width: 80, height: 80)),
+                                      Container(
+                                        color: Colors.green.shade50,
+                                        child: Padding (padding: EdgeInsets.all(10), child: Text("Xamarin", style: TextStyle(fontSize: 80, color: Colors.black, fontWeight: FontWeight.bold))),
+                                      ),
+                                      Row(
+                                        children: [
+                                          Padding(padding: EdgeInsets.all(15), child: Image.asset('assets/images/microsoft-icon.png', width: 160, height: 160)),
+                                          Padding(padding: EdgeInsets.all(15), child: Image.asset('assets/images/xamarin-icon.png', width: 160, height: 160)),
+                                        ]
+                                      ),
                                       Text("Application code (.NET)", style: TextStyle(fontSize: 40, color: Colors.black)),
                                       Icon(Icons.arrow_downward_rounded, size: 40),
                                       Text("Bridge", style: TextStyle(fontSize: 40, color: Colors.black54)),

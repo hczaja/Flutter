@@ -44,10 +44,13 @@ class SlideHome extends StatelessWidget {
             ),
             Align(
               alignment: AlignmentDirectional.bottomCenter,
-              child: Text("@hczaja",
-                style: TextStyle(
-                  color: Colors.black, 
-                  fontSize: 25))
+              child: Padding(
+                padding: EdgeInsets.only(bottom: 10),
+                child: Text("@hczaja",
+                  style: TextStyle(
+                    color: Colors.black, 
+                    fontSize: 25))
+              )
             ),
           ],
         ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SlideOneOne extends StatelessWidget {
+class SlideTwoOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,7 +13,7 @@ class SlideOneOne extends StatelessWidget {
             children: <Widget>[
               SizedBox(height: 50),
               Center(
-                child: Text("1. Flutter",
+                child: Text("2. Dart",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
@@ -21,7 +21,7 @@ class SlideOneOne extends StatelessWidget {
                     fontWeight: FontWeight.bold))
               ),
               Center(
-                child: Text("1.1 What is it?",
+                child: Text("2.1 Why?",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white70,
@@ -36,11 +36,9 @@ class SlideOneOne extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Image.asset('assets/images/google-icon.png', width: 240, height: 240),
+                      FlutterLogo(size: 240),
                       Icon(Icons.arrow_forward_rounded, size: 200),
-                      Image.asset('assets/images/lightbulb-icon.png', width: 240, height: 240),
-                      Icon(Icons.arrow_forward_rounded, size: 200),
-                      FlutterLogo(size: 240,)
+                      Image.asset('assets/images/dart-icon.png', width: 240, height: 240),
                     ],
                   )
                 )
